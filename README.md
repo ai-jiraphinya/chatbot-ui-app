@@ -33,21 +33,21 @@ Expect frequent improvements.
 
 Host your own live version of Chatbot UI with Vercel.
 
-[![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/new/clone?repository-url=https%3A%2F%2Fgithub.com%2Fmckaywrigley%2Fchatbot-ui)
+[![Deploy with Vercel]
 
 **Docker**
 
 Build locally:
 
 ```shell
-docker build -t chatgpt-ui .
-docker run -e OPENAI_API_KEY=xxxxxxxx -p 3000:3000 chatgpt-ui
+docker build -t chatbot-ui-app .
+docker run -e OPENAI_API_KEY=xxxxxxxx -p 3000:3000 chatbot-ui-app
 ```
 
 Pull from ghcr:
 
 ```
-docker run -e OPENAI_API_KEY=xxxxxxxx -p 3000:3000 ghcr.io/mckaywrigley/chatbot-ui:main
+docker run -e OPENAI_API_KEY=xxxxxxxx -p 3000:3000 ghcr.io/ai-jiraphinya/chatbot-ui-app:main
 ```
 
 ## Running Locally
@@ -110,6 +110,6 @@ If you don't have an OpenAI API key, you can get one [here](https://platform.ope
 
 ## Contact
 
-If you have any questions, feel free to reach out to Mckay on [Twitter](https://twitter.com/mckaywrigley).
+If you have any questions, feel free to reach out to Mint on [Twitter](https://twitter.com/).
 
 [GCSE]: https://developers.google.com/custom-search/v1/overview
